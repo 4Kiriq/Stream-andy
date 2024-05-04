@@ -234,7 +234,7 @@ class MainWindow(QMainWindow):
             return
 
         video_name = os.path.basename(self.video_file)
-        video_name = os.path.splitext(video_name)[0]  # Remove extension
+        video_name = os.path.splitext(video_name)[0]
 
         main_script_dir = os.path.dirname(sys.argv[0])
 
